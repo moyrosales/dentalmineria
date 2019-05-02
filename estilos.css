@@ -1,0 +1,292 @@
+/*ICONOS*/
+
+i.iconos{
+    color:white;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #99cc00;
+
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    
+}
+p{
+    font-size: 15px;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+.bordes-rojo{
+    border: 1px solid red;
+}
+
+.bordes-azul{
+    border: 1px solid blue;
+}
+
+.left{
+    text-align: left;
+}
+.blanco{
+    color: white;
+}
+
+.center{
+    text-align: center;
+}
+
+header{
+
+    background-image: url("./imagenes/fondo_slide.jpg");
+    width: 100%;
+    height: 800px;
+    padding: 10px;
+}
+
+header p{
+    color: white;
+}
+
+header > *{
+
+    vertical-align: top;
+    display: inline-block;
+}
+
+header .top-header-izquierda{
+
+    display: inline-block;
+    width: 45%;
+    
+}
+
+div.top-header-derecha, div.top-header-derecha > *{
+    display: inline-block;
+}
+
+div.top-header-derecha{
+    width: 54%;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+div.icono-header-1{
+    display: inline-block;
+    margin-right: 150px;
+    
+}
+
+div.icono-header-1 i + div{
+    display: inline-block;
+}
+
+div.icono-header-1 > *{
+
+    vertical-align: middle;
+}
+
+section div.izquierda-expe{
+
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+h1{
+    font-size: 3em;
+    color: white;
+}
+section.experiencia{
+    width: 45%;
+}
+section.experiencia div p{
+    font-size: 1em;
+}
+
+a.ligero{
+    display: inline-block;
+    padding:  15px 30px;
+    background-color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #01a0e4;
+}
+
+a.obscuro{
+
+    display: block;
+    padding:  15px 30px;
+    background-color:#01a0e4;
+    border-radius: 40px;
+    text-decoration: none;
+    color:white;
+    margin-top: 25px;
+
+}
+
+div.formulario{
+
+    
+    padding: 25px 25px;
+    background-color: rgba( 0, 0, 0, 0.5 ); 
+    color: white;
+    margin-left: 100px; 
+
+}
+
+div.formulario p{
+    color: gray;
+}
+input.estilos{
+    
+    width: 98%;
+    padding: 4%;
+    border-radius: 4px;
+}
+
+select{
+    width: 98%;
+    padding: 4%;
+    border-radius: 4px;
+}
+
+section.porque h1{
+    color: black;
+}
+
+section.porque div.icono-header-1{
+
+    width: 20%;
+    margin: 5px;
+    vertical-align: middle;
+}
+section.porque div.icono-header-1 i{
+    margin-right: 25px;
+}
+.texto-izquierda{
+    text-align: left;
+}
+
+.negro{
+    color: black;
+}
+span{
+    margin-left: 5px;
+}
+
+section.equipo{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+section.equipo div figure{
+    width: 80px;
+    height: 80px;
+    margin:0px;
+    display: inline-block;
+}
+
+section.equipo div figure img{
+
+    width: 100%;
+    display: inline-block;
+}
+
+div.icono-header-1 figure + div{
+    display: inline-block;
+}
+
+section.equipo h3{
+    margin-top:0px; 
+}
+
+section.equipo div.icono-header-1{
+
+    width: 20%;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.azul-marino{
+    color: #01a0e4;
+}
+.gris{
+    color: gray;
+}
+
+.verde{
+    color:green;
+
+}
+
+.mitad{
+    width: 50%;
+}
+
+.tres-cuartos{
+    width: 70%;
+}
+
+section.ayuda{
+    background-image: url("./imagenes/fondo_instrumentos.jpg");
+
+    width: 100%;
+    height: 600px;
+    
+}
+
+section.ayuda div{
+
+    position: relative;
+    top: 30%;
+}
+.bloque{
+    display: block !important;
+}
+
+.margen-derecho-cero{
+    margin-right: 0px !important;
+}
+
+.fondo-blanco-obscuro{
+    background-color: #F2F2F2;
+}
+
+#info{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#info > *{
+    vertical-align: top;
+}
+
+footer{
+
+    background-color: #01a0e4;
+    padding: 30px;
+    padding-bottom: 20px; 
+
+}
+
+.footer-iconos{
+    color:white;
+    padding: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+footer > *{
+    display: inline-block;
+    width: 30%;
+}
+.derecha{
+    text-align: right;
+}
+
+#facebook{
+    padding-right:19px;
+    padding-left: 19px;
+}
